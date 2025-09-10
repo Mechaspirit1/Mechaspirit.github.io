@@ -1,0 +1,81 @@
+html{
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    background-color: rgb(80, 173, 255);
+}
+
+img{
+    width: 250px;
+    height: 150px;
+}
+
+body{
+
+    background-color: white;
+    margin: 10% auto;
+    max-width: 1200px;
+    width: 90%;
+    text-align: center;
+
+    display: flex;
+    flex-wrap: wrap; /*Ajusta a maneira como o conteudo é mostrado dependendo do tamanho da tela  dinamincamente*/
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+
+    outline: 20px solid white;
+    outline-offset: -20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+div{
+    flex: 1; /*Eu não faço a minima ideia do que isso faz, mas se for removido a pagina fica desalinhada*/
+    font-size: 10px;
+    padding: 5%;
+    border: 1px solid rgb(187, 187, 187) ;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+h2{
+    color:rgb(0, 136, 255);
+    font-weight: bold;
+    margin: auto;
+    padding: 5%;
+}
+
+button{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+
+    color: rgb(0, 136, 255);
+    text-transform: uppercase;
+    padding: 5% 15% 5% 15%;
+
+    background: none;
+    border-style: solid;
+    border-color:rgb(0, 136, 255);
+    border-radius: 15px;
+
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color: rgb(0, 136, 255);
+    color: white;
+}
+
+#panel3{
+    border-right: none;
+}
+
+.price{
+    font-size: 40px;
+}
+
+.plan{
+    color: grey;
+    margin-bottom: 40px;
+}
